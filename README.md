@@ -1,12 +1,14 @@
 CSS Modules Starter Kit
 ====
 
-Get started with CSS Modules
+Get started with [CSS Modules](https://github.com/css-modules/css-modules).
 
 The `master` branch has the bare minimum:
 
-- cmify
-- browserify
+- [cmify](https://github.com/joshwnj/cmify)
+- [browserify](https://github.com/substack/node-browserify)
+
+For info on using CSS Modules with Webpack take a look at the [webpack demo](https://github.com/css-modules/webpack-demo).
 
 Other branches (coming soon)
 ----
@@ -20,7 +22,7 @@ Running the code
 
 After fetching dependencies with `npm install`, run these commands:
 
-- `npm run build`
+- `npm run build` (or `npm run watch` for watch-mode)
 - Open `index.html` in a browser (on OSX you can do this by entering `open index.html` in a terminal).
 
 You can also try running `node src/index.js` to see the result of using CSS Modules in node.
