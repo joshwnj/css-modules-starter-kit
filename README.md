@@ -13,7 +13,7 @@ For info on using CSS Modules with Webpack take a look at the [webpack demo](htt
 Other branches (coming soon)
 ----
 
-- `hot-reload`: browserify-hmr
+- [`hot-reload`](https://github.com/joshwnj/css-modules-starter-kit/tree/hot-reload): browserify-hmr
 - `postcss`: adding autoprefixer and postcss plugins
 - `the-lot`: (babel + react + flow)
 
