@@ -1,7 +1,7 @@
 CSS Modules Starter Kit
 ====
 
-Get started with CSS Modules in a less scary way.
+Get started with CSS Modules
 
 The `master` branch has the bare minimum:
 
