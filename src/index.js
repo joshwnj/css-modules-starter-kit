@@ -9,8 +9,23 @@ const component = `<div class="${styles.root}">
 if (process.browser) {
   const root = document.getElementById('root')
   root.innerHTML = component
-  require('insert-css')(cmify.getAllCss())
-} else {
+
+  // rewrite css
+  const head = document.getElementsByTagName('head')[0]
+  Array.prototype.forEach.call(head.querySelectorAll('style'), function (node) {
+    head.removeChild(node)
+    console.log('removed')
+  })
+
+  // TODO: use something that doesn't need cache busting
+  require('insert-css')(cmify.getAllCss() + `/* ${Date.now()} */`)
+
+  if (module.hot) {
+    module.hot.accept()
+  }
+}
+// node
+else {
   console.log('----\nTOKENS\n----\n', styles, '\n')
   console.log('----\nHTML\n----\n', component, '\n')
   console.log('----\nCSS\n----\n', cmify.getAllCss(), '\n')

@@ -8,6 +8,7 @@
     "prebuild": "npm run clean",
     "build": "browserify -p cmify/plugin src/index.js -o dist/index.js",
     "watch": "watchify -v -p cmify/plugin src/index.js -o dist/index.js",
+    "hot": "watchify -v -p browserify-hmr -p cmify/plugin src/index.js -o dist/index.js",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +17,7 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^13.0.0",
+    "browserify-hmr": "^0.3.1",
     "cmify": "^1.3.0",
     "standard": "^6.0.8",
     "watchify": "^3.7.0"
