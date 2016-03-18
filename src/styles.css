@@ -5,10 +5,12 @@
 }
 
 .heading {
+  composes: padded from "./boxes.css";
   font-style: italic;
 }
 
 .content {
+  composes: padded from "./boxes.css";
   border-top: 1px solid #000;
   margin: 10px 0;
 }

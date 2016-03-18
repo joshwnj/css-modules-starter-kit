@@ -10,6 +10,7 @@ const component = `<div class="${styles.root}">
 if (process.browser) {
   const root = document.getElementById('root')
   root.innerHTML = component
+  require('insert-css')(cmify.getAllCss())
 }
 // node
 else {

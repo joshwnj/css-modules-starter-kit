@@ -19,5 +19,8 @@
     "cmify": "^1.2.0",
     "standard": "^6.0.8",
     "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "insert-css": "^0.2.0"
   }
 }
