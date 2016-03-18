@@ -1,0 +1,14 @@
+.root {
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.heading {
+  font-style: italic;
+}
+
+.content {
+  border-top: 1px solid #000;
+  margin: 10px 0;
+}
