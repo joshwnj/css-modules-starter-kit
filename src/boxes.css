@@ -1,3 +1,14 @@
+@value startColor: red;
+@value endColor: yellow;
+
 .padded {
   padding: 10px;
+  background: linear-gradient(startColor, endColor);
+  color: color(hsla(25, 50%, 30%, .8) saturation(+ 10%) w(- 20%));
+  transition: all 1s;
+
+  &:hover {
+    background: linear-gradient(endColor, startColor);
+    padding: 20px 10px;
+  }
 }

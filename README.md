@@ -3,9 +3,11 @@ CSS Modules Starter Kit
 
 Get started with [CSS Modules](https://github.com/css-modules/css-modules).
 
-The `hot-reload` branch builds on the original example with hot-module-reloading:
+The `postcss` branch builds on the [`hot-reload`](https://github.com/joshwnj/css-modules-starter-kit/tree/hot-reload) branch with additional postcss plugins:
 
-- [browserify-hmr](https://github.com/AgentME/browserify-hmr)
+- [autoprefixer](https://github.com/postcss/autoprefixer)
+- [postcss-color-function](https://github.com/postcss/postcss-color-function)
+- [postcss-nesting](https://github.com/jonathantneal/postcss-nesting)
 
 Running the code
 ----
