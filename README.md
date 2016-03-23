@@ -14,7 +14,7 @@ Other branches (coming soon)
 ----
 
 - [`hot-reload`](https://github.com/joshwnj/css-modules-starter-kit/tree/hot-reload): browserify-hmr
-- `postcss`: adding autoprefixer and postcss plugins
+- [`postcss`](https://github.com/joshwnj/css-modules-starter-kit/tree/postcss): adding autoprefixer and postcss plugins
 - `the-lot`: (babel + react + flow)
 
 Running the code
