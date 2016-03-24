@@ -1,0 +1,7 @@
+@keyframes wobbleX {
+  50% { transform: translateX(-5px); }
+}
+
+.wobbleX {
+  animation: wobbleX 0.5s infinite ease-in-out;
+}

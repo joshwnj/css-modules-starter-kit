@@ -1,4 +1,5 @@
 .root {
+  composes: wobbleX from "./animations.css";
   width: 50%;
   margin: 0 auto;
   border: 1px solid #000;
