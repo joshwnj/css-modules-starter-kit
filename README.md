@@ -23,8 +23,6 @@ You can also try running `node src/index.js` to see the result of using CSS Modu
 Your turn
 ----
 
-Make some edits to `src/`, then run `npm run build` again and refresh the browser. ✨
-=======
 Make some edits to js and css files in `src/` to see how the updates are applied in the browser.
 
 License
