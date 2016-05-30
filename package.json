@@ -9,7 +9,7 @@
     "build": "browserify -p cmify/plugin src/index.js -o dist/index.js",
     "watch": "watchify -v -p cmify/plugin src/index.js -o dist/index.js",
     "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && npm run build"
   },
   "keywords": [],
   "author": "joshwnj",
