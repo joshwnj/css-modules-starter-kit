@@ -21,6 +21,6 @@
     "watchify": "^3.7.0"
   },
   "dependencies": {
-    "insert-css": "^0.2.0"
+    "insert-css": "^1.0.0"
   }
 }
