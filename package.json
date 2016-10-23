@@ -15,7 +15,7 @@
   "author": "joshwnj",
   "license": "MIT",
   "devDependencies": {
-    "browserify": "^13.1.0",
+    "browserify": "^13.1.1",
     "cmify": "^1.6.0",
     "standard": "^8.4.0",
     "watchify": "^3.7.0"
